@@ -1,36 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Huabing Blog</title>
-    <link>https://zhaohuabing.com/categories/</link>
-    <description>Recent content in Categories on Huabing Blog</description>
+    <title>Categories on Patti Taiwanese Mandarin</title>
+    <link>pattimandarin.com/categories/</link>
+    <description>Recent content in Categories on Patti Taiwanese Mandarin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 Jun 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://zhaohuabing.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="pattimandarin.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Tech</title>
-      <link>https://zhaohuabing.com/categories/tech/</link>
-      <pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate>
+      <title>Introduction</title>
+      <link>pattimandarin.com/categories/introduction/</link>
+      <pubDate>Sat, 24 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://zhaohuabing.com/categories/tech/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tips</title>
-      <link>https://zhaohuabing.com/categories/tips/</link>
-      <pubDate>Thu, 24 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://zhaohuabing.com/categories/tips/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Life</title>
-      <link>https://zhaohuabing.com/categories/life/</link>
-      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://zhaohuabing.com/categories/life/</guid>
+      <guid>pattimandarin.com/categories/introduction/</guid>
       <description></description>
     </item>
     
