@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-	<meta name="generator" content="Hugo 0.111.3">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -35,9 +34,9 @@
     <meta name="keyword"  content="中文,華語,台灣華語,漢語,Chinese,線上家教">
     <link rel="shortcut icon" href="/pattimandarin.com/img/favicon.ico">
 
-    <title>Patti Taiwanese Mandarin | Patti Mandarin 台灣華語</title>
+    <title>Searches | Patti Mandarin 台灣華語</title>
 
-    <link rel="canonical" href="pattimandarin.com/">
+    <link rel="canonical" href="pattimandarin.com/search/">
 
     
     
@@ -172,8 +171,7 @@
 
 
 
-  
-<div data-pagefind-ignore="all" class="container">
+<div class="container">
     <div class="row">
         
         
@@ -184,90 +182,117 @@
             col-xs-12
             post-container
         ">
+        
             
-<div data-pagefind-ignore="all">
+<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch-theme-algolia.min.css">
 
-<div class="post-preview">
-    <a href="pattimandarin.com/2018/06/04/introducing-the-istio-v1alpha3-routing-api/">
-        <h2 class="post-title">
-            How do students enhance their mandarin oral skills through video assignments?
-        </h2>
-	
-        <div class="post-content-preview">
-	
-            How do students enhance their mandarin oral skills through video assignments?
+<div id="search-searchbar"></div>
+ <div class="post-list" id="search-hits">
+ </div>
+
+<script>
+const search = instantsearch({
+  appId: '',
+  indexName: '',
+  apiKey: ''
+});
+
+const hitTemplate = function(hit) {
+
+
+  let date = '';
+  if (hit.date) {
+    date = moment.unix(hit.date).format('MMM D, YYYY');
+  }
+  let url = `${hit.url}#${hit.anchor}`;
+  const title = hit._highlightResult.title.value;
+
+  let breadcrumbs = '';
+  if (hit._highlightResult.headings) {
+    breadcrumbs = hit._highlightResult.headings.map(match => {
+      return `<span class="post-breadcrumb">${match.value}</span>`
+    }).join(' > ')
+  }
+
+  let content = "" ; 
+  if (hit._highlightResult.content){
+      content = hit._highlightResult.content.value;
+  }
+  else{
+      content = hit.summary;
+  }
+
+
+  return `
+    <div class="post-item">
+      <span class="post-meta">${date}</span>
+      <h2><a class="post-link" href="${url}">${title}</a></h2>
+      <a href="${url}" class="post-breadcrumbs">${breadcrumbs}</a>
+      <div class="post-snippet">${content}</div>
+    </div>
+  `;
+}
+
+
+search.addWidget(
+  instantsearch.widgets.searchBox({
+    container: '#search-searchbar',
+    placeholder: 'Search into posts...',
+    poweredBy: true // This is required if you're on the free Community plan
+  })
+);
+
+search.addWidget(
+  instantsearch.widgets.hits({
+    container: '#search-hits',
+    templates: {
+      item: hitTemplate
+    }
+  })
+);
+
+search.start();
+</script>
+
+<style>
+.ais-search-box {
+  max-width: 100%;
+  margin-bottom: 15px;
+}
+.post-item {
+  margin-bottom: 30px;
+}
+.post-link .ais-Highlight {
+  color: #111;
+  font-style: normal;
+  text-decoration: underline;
+}
+.post-breadcrumbs {
+  color: #424242;
+  display: block;
+}
+.post-breadcrumb {
+  font-size: 18px;
+  color: #424242;
+}
+.post-breadcrumb .ais-Highlight {
+  font-weight: bold;
+  font-style: normal;
+}
+.post-snippet .ais-Highlight {
+  color: #2a7ae2;
+  font-style: normal;
+  font-weight: bold;
+}
+.post-snippet img {
+  display: none;
+}
+</style>
+
         
-        </div>
-    </a>
-    <p class="post-meta">
-    
-        Posted by     &#34;Patti&#34; on Saturday, June 24, 2023
-        
-        
-    
-    </p>
-
-</div>
-<hr>
-
-<div class="post-preview">
-    <a href="pattimandarin.com/post/2023-06-23booklesson/">
-        <h2 class="post-title">
-            Book 1:1 Lesson
-        </h2>
-	
-        <h3 class="post-subtitle">
-            Book 1:1 Lesson
-        </h3>
-	
-        <div class="post-content-preview">
-	
-            Course Types Currently, I offer two types of courses:
-Trial Course (Free/30 minutes): You can directly schedule a trial course with me. One-on-One Taiwanese Mandarin Class: My courses focus on everyday Mandarin coversations in Taiwan. The price is $15 per hour. If you purchase eight sessions at once, I can provide a 10% discount.
-Booking I use SimplyMeet.me for scheduling. It is a simple and secure online booking service. You can directly schedule a time slot and fill out the form with your learning requirements and current level of Chinese proficiency.
-       
-        </div>
-    </a>
-    <p class="post-meta">
-    
-        Posted by Pei on Friday, June 23, 2023
-        
-        
-    
-    </p>
-
-</div>
-<hr>
-
-<div class="post-preview">
-    <a href="pattimandarin.com/2018/06/04/introducing-the-istio-v1alpha3-routing-api/">
-        <h2 class="post-title">
-            Patti - Self Intrdoduction
-        </h2>
-	
-        <div class="post-content-preview">
-	
-            Self Introduction
-        
-        </div>
-    </a>
-    <p class="post-meta">
-    
-        Posted by     &#34;Patti&#34; on Thursday, June 22, 2023
-        
-        
-    
-    </p>
-
-</div>
-<hr>
-
-</div>
-
-            
-
-
-
        	</div>
         
 
@@ -370,8 +395,6 @@ Booking I use SimplyMeet.me for scheduling. It is a simple and secure online boo
 
 	</div>
 </div>
-
-
 
 
 
