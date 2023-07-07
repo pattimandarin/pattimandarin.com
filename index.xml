@@ -1,85 +1,182 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Patti Taiwanese Mandarin</title>
-    <link>pattimandarin.com/</link>
-    <description>Recent content on Patti Taiwanese Mandarin</description>
+    <title>Welcome to Congo! :tada: on Congo</title>
+    <link>/</link>
+    <description>Recent content in Welcome to Congo! :tada: on Congo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 24 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="pattimandarin.com/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-au</language>
+    <copyright>&amp;copy; 2023 Congo contributors</copyright>
+    <lastBuildDate>Thu, 20 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>How do students enhance their mandarin oral skills through video assignments?</title>
-      <link>pattimandarin.com/2018/06/04/introducing-the-istio-v1alpha3-routing-api/</link>
-      <pubDate>Sat, 24 Jun 2023 00:00:00 +0000</pubDate>
+      <title>Upgrading from Congo 1.x</title>
+      <link>/docs/version-2/upgrade/</link>
+      <pubDate>Thu, 20 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>pattimandarin.com/2018/06/04/introducing-the-istio-v1alpha3-routing-api/</guid>
-      <description>Student Goals The students&amp;rsquo; proficiency level is approximately between A2 and B1. They are Indonesian students learning Mandarin in Taiwan, with a focus on workplace Mandarin that also covers pragmatic aspects. Previously, I used the textbook “Advanced Business Chinese ”(各行各業說中文）from the National Taiwan Normal University Mandain Center. This is</description>
+      <guid>/docs/version-2/upgrade/</guid>
+      <description>Although Congo 2.</description>
     </item>
     
     <item>
-      <title>Book 1:1 Lesson</title>
-      <link>pattimandarin.com/post/2023-06-23booklesson/</link>
-      <pubDate>Fri, 23 Jun 2023 00:00:00 +0000</pubDate>
+      <title>Installation</title>
+      <link>/docs/installation/</link>
+      <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>pattimandarin.com/post/2023-06-23booklesson/</guid>
-      <description>Course Types Currently, I offer two types of courses:
-Trial Course (Free/30 minutes): You can directly schedule a trial course with me. One-on-One Taiwanese Mandarin Class: My courses focus on everyday Mandarin coversations in Taiwan. The price is $15 per hour. If you purchase eight sessions at once, I can provide a 10% discount.
-Booking I use SimplyMeet.me for scheduling. It is a simple and secure online booking service. You can directly schedule a time slot and fill out the form with your learning requirements and current level of Chinese proficiency.</description>
+      <guid>/docs/installation/</guid>
+      <description>Learn how to get up and running using Hugo and Congo from a completely blank state. It&amp;rsquo;s the best place to start if you&amp;rsquo;re a new user.</description>
     </item>
     
     <item>
-      <title>Patti - Self Intrdoduction</title>
-      <link>pattimandarin.com/2018/06/04/introducing-the-istio-v1alpha3-routing-api/</link>
-      <pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate>
+      <title>Getting Started</title>
+      <link>/docs/getting-started/</link>
+      <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>pattimandarin.com/2018/06/04/introducing-the-istio-v1alpha3-routing-api/</guid>
-      <description>Hi! Everyone, My name is Patti, a native Taiwanese teacher. I majored in Chinese literature and I love reading books and go mountain climbing.
-I can teach:
-How to speak authentic Taiwanese Mandarin (based on living or traveling experiences in Taiwan)
-Business Chinese in a workplace setting (interviews, communicating with colleagues and clients)
-Chinese used in popular Taiwanese dramas, movies, and music, with self-made teaching materials
-I&amp;rsquo;m also currently learning Taiwanese and Japanese, I would like to share Taiwanese culture with you.</description>
+      <guid>/docs/getting-started/</guid>
+      <description>This section assumes you have already installed the Congo theme and are ready to start with basic configuration tasks like selecting a colour scheme, menu and content structure.</description>
     </item>
     
     <item>
-      <title></title>
-      <link>pattimandarin.com/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Configuration</title>
+      <link>/docs/configuration/</link>
+      <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>pattimandarin.com/about/</guid>
-      <description>About Me Hi! Everyone, My name is Patti, a native Taiwanese teacher. I majored in Chinese literature and I love reading books and go mountain climbing.
-I can teach:
-How to speak authentic Taiwanese Mandarin (based on living or traveling experiences in Taiwan)
-Business Chinese in a workplace setting (interviews, communicating with colleagues and clients)
-Chinese used in popular Taiwanese dramas, movies, and music, with self-made teaching materials
-I&amp;rsquo;m also currently learning Taiwanese and Japanese, I would like to share Taiwanese culture with you.</description>
+      <guid>/docs/configuration/</guid>
+      <description>Discover all the site, language and theme configurations that are available in Congo and how they can be used to customise your project.</description>
     </item>
     
     <item>
-      <title></title>
-      <link>pattimandarin.com/notes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Icons</title>
+      <link>/samples/icons/</link>
+      <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>pattimandarin.com/notes/</guid>
-      <description>Go 语言学习笔记 Envoy 学习笔记</description>
+      <guid>/samples/icons/</guid>
+      <description>Congo has built-in support for a number of FontAwesome 6 icons.</description>
     </item>
     
     <item>
-      <title></title>
-      <link>pattimandarin.com/search/placeholder/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Users</title>
+      <link>/users/</link>
+      <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>pattimandarin.com/search/placeholder/</guid>
-      <description></description>
+      <guid>/users/</guid>
+      <description>Real websites that have been built using Congo.</description>
     </item>
     
     <item>
-      <title>Posts Archive</title>
-      <link>pattimandarin.com/archive/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Homepage Layout</title>
+      <link>/docs/homepage-layout/</link>
+      <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>pattimandarin.com/archive/</guid>
-      <description></description>
+      <guid>/docs/homepage-layout/</guid>
+      <description>Congo provides a fully flexible homepage layout with built-in templates and the ability to provide your own.</description>
+    </item>
+    
+    <item>
+      <title>Front Matter</title>
+      <link>/docs/front-matter/</link>
+      <pubDate>Wed, 12 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/front-matter/</guid>
+      <description>While supporting most Hugo defaults, Congo adds a number of front matter parameters to customise the presentation of individual articles.</description>
+    </item>
+    
+    <item>
+      <title>Shortcodes</title>
+      <link>/docs/shortcodes/</link>
+      <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/shortcodes/</guid>
+      <description>Congo includes several shortcodes for adding rich content to articles including images, charts, diagrams, buttons and more.</description>
+    </item>
+    
+    <item>
+      <title>Partials</title>
+      <link>/docs/partials/</link>
+      <pubDate>Mon, 10 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/partials/</guid>
+      <description>Partials are used to add special functionality to the theme including analytics, comments, favicons, custom scripts and more.</description>
+    </item>
+    
+    <item>
+      <title>Content Examples</title>
+      <link>/docs/content-examples/</link>
+      <pubDate>Sun, 09 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/content-examples/</guid>
+      <description>It&amp;rsquo;s time to bring everything together with some examples that demonstrate how content should be created and structured.</description>
+    </item>
+    
+    <item>
+      <title>Advanced Customisation</title>
+      <link>/docs/advanced-customisation/</link>
+      <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/advanced-customisation/</guid>
+      <description>Congo supports advanced customisations that include modifying the underlying Tailwind configuration, building the theme manually and providing custom CSS.</description>
+    </item>
+    
+    <item>
+      <title>Hosting &amp; Deployment</title>
+      <link>/docs/hosting-deployment/</link>
+      <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/hosting-deployment/</guid>
+      <description>Congo is designed to be flexible in almost any deployment scenario. Learn more about how to deploy your project to some common hosting platforms.</description>
+    </item>
+    
+    <item>
+      <title>Markdown</title>
+      <link>/samples/markdown/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/samples/markdown/</guid>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown formatting that can be used in Congo, also it shows how some basic HTML elements are decorated.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rich Content</title>
+      <link>/samples/rich-content/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/samples/rich-content/</guid>
+      <description>This is an &lt;em&gt;example&lt;/em&gt; of a &lt;strong&gt;rich&lt;/strong&gt; content summary.</description>
+    </item>
+    
+    <item>
+      <title>Mathematical notation</title>
+      <link>/samples/mathematical-notation/</link>
+      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/samples/mathematical-notation/</guid>
+      <description>&lt;p&gt;KaTeX can be used to render mathematical notation within articles.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Charts</title>
+      <link>/samples/charts/</link>
+      <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/samples/charts/</guid>
+      <description>Congo includes Chart.js for powerful charts and data visualisations.</description>
+    </item>
+    
+    <item>
+      <title>Diagrams and Flowcharts</title>
+      <link>/samples/diagrams-flowcharts/</link>
+      <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/samples/diagrams-flowcharts/</guid>
+      <description>It&amp;rsquo;s easy to add diagrams and flowcharts to articles using Mermaid.</description>
+    </item>
+    
+    <item>
+      <title>Emoji :parachute:</title>
+      <link>/samples/emoji/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/samples/emoji/</guid>
+      <description>📖🏞️🧗🏽🐉🧙🏽‍♂️🧚🏽👸</description>
     </item>
     
   </channel>
